@@ -16,8 +16,10 @@ struct SplashScreenView: View {
     var body: some View {
         if isActive && toHomePage {
             HomeScreenView()
+                .navigationBarHidden(true)
         } else if isActive && !toHomePage {
             LoginScreenView()
+                .navigationBarHidden(true)
         } else {
             Color.black.ignoresSafeArea().overlay {
                 VStack {
@@ -41,7 +43,7 @@ struct SplashScreenView: View {
                 }.onAppear {
                     DispatchQueue.main.asyncAfter(deadline: .now() + 3.0) {
                         self.isActive = true
-                        // self.toHomePage = true
+                        self.toHomePage = true
                     }
                 }
             }

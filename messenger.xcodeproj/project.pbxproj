@@ -27,7 +27,6 @@
 		D077F1FA2892D86F007A6C1A /* Poppins-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D077F1F52892D86F007A6C1A /* Poppins-Regular.ttf */; };
 		D077F1FE2892DCF9007A6C1A /* ConversationScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D077F1FD2892DCF9007A6C1A /* ConversationScreenView.swift */; };
 		D077F2002892DD0A007A6C1A /* ProfileScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D077F1FF2892DD0A007A6C1A /* ProfileScreenView.swift */; };
-		D077F2042892F37D007A6C1A /* CustomTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = D077F2032892F37D007A6C1A /* CustomTabBar.swift */; };
 		D077F2062892FE71007A6C1A /* LoginScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D077F2052892FE71007A6C1A /* LoginScreenView.swift */; };
 		D077F2082892FF9B007A6C1A /* ForgotPasswordScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D077F2072892FF9B007A6C1A /* ForgotPasswordScreenView.swift */; };
 		D0B9910F28931C2800129F4C /* RegisterScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0B9910E28931C2800129F4C /* RegisterScreenView.swift */; };
@@ -75,7 +74,6 @@
 		D077F1F52892D86F007A6C1A /* Poppins-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Regular.ttf"; sourceTree = "<group>"; };
 		D077F1FD2892DCF9007A6C1A /* ConversationScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConversationScreenView.swift; sourceTree = "<group>"; };
 		D077F1FF2892DD0A007A6C1A /* ProfileScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileScreenView.swift; sourceTree = "<group>"; };
-		D077F2032892F37D007A6C1A /* CustomTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabBar.swift; sourceTree = "<group>"; };
 		D077F2052892FE71007A6C1A /* LoginScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginScreenView.swift; sourceTree = "<group>"; };
 		D077F2072892FF9B007A6C1A /* ForgotPasswordScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPasswordScreenView.swift; sourceTree = "<group>"; };
 		D0B9910E28931C2800129F4C /* RegisterScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterScreenView.swift; sourceTree = "<group>"; };
@@ -241,7 +239,6 @@
 			isa = PBXGroup;
 			children = (
 				D077F1E72892D12C007A6C1A /* HomeScreenView.swift */,
-				D077F2032892F37D007A6C1A /* CustomTabBar.swift */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -424,7 +421,6 @@
 				D0B9910F28931C2800129F4C /* RegisterScreenView.swift in Sources */,
 				D077F1EB2892D587007A6C1A /* DataSource.swift in Sources */,
 				D077F1FE2892DCF9007A6C1A /* ConversationScreenView.swift in Sources */,
-				D077F2042892F37D007A6C1A /* CustomTabBar.swift in Sources */,
 				D077F2062892FE71007A6C1A /* LoginScreenView.swift in Sources */,
 				D077F1AC2892C744007A6C1A /* messengerApp.swift in Sources */,
 				D077F2002892DD0A007A6C1A /* ProfileScreenView.swift in Sources */,
